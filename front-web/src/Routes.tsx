@@ -9,7 +9,7 @@ function Routes () {
             <Navbar />
             <Switch>
                 <Route path="/orders">
-                    <Orders/>
+                    <Orders />
                 </Route>
                 <Route path="/">
                     <Home />
