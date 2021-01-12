@@ -98,7 +98,7 @@ public class Order implements Serializable {
 	}
 	
 	public Double getTotal() {
-		Double soma = (double) 0;
+		Double soma = 0.0;
 		for(Product p:products) {
 			soma += p.getPrice();
 		}
